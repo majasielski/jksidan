@@ -1,8 +1,6 @@
-Version created on 16th nov
+Version created on 18th oct 2023
 
-Changes in css to resolve following issues:
-
-- boxes in 1:1 aspect ratio
-- 1200px resolution adjustment (frames are not changing above this resolution)
-- some improvments in the styles.css to make the stylesheet more clear.. 
-- some changes to responsive css to make fonts adjust to the screen
+Removing some bugs in style.css, see following errors from the browser's debugger:
+ 
+- Fel vid tolkningen av värdet för ‘color’.  Ignorerad deklaration. style.css:37:29
+- Fel vid tolkningen av värdet för ‘font-size’.  Ignorerad deklaration. style.css:125:15
