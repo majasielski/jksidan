@@ -1,4 +1,5 @@
-Changelog:
-1: ramar utan text och bilder
-2: ramar med text, utan bilder
+Version created on 13 oct 20023
 
+- Menus created
+- Frames created
+- Some gfx added
