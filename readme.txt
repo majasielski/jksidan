@@ -1,5 +1,8 @@
-1: ramar utan text och bilder
-2: ramar med text, utan bilder
-3: ramar med text och med bilder
-4: mobil css
-5: anpassade bilder för mobil
+Version created on 16th nov
+
+Changes in css to resolve following issues:
+
+- boxes in 1:1 aspect ratio
+- 1200px resolution adjustment (frames are not changing above this resolution)
+- some improvments in the styles.css to make the stylesheet more clear.. 
+- some changes to responsive css to make fonts adjust to the screen
