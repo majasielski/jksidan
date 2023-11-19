@@ -1,5 +1,5 @@
-Version created on 13 oct 20023
+Verion created on 19th oct 20023
 
-- Menus created
-- Frames created
-- Some gfx added
+- more gfx added
+- fonts added and configured via css
+- separate folders creaded for css files and mapped in index
