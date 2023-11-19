@@ -3,7 +3,9 @@
     font-size: 3.5vw;
     margin: 0;
   }
-
+  body {
+    background-image: url("../img/jk500.jpg");
+  }
   h1 {
     text-align: center;
     font-size: 13vw;
@@ -26,7 +28,10 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 11rem 11rem auto;
     gap: 1vw;
-
+  }
+    section:first-of-type > div:nth-child(2) div:nth-child(4) {
+    background: url("../img/jkside500.jpg");
+  }
   /*BOTTOM SECTION*/
   section > div:nth-child(2) {
     grid-template-columns: repeat(3, 1fr);
@@ -49,8 +54,13 @@
   h1 {
     font-size: 7vw;
   }
-
- }
+  section:first-of-type > div:nth-child(2) div:nth-child(4) {
+    background: url("../img/jkside800.jpg");
+  }
+  section:last-of-type > div:nth-child(2) div:nth-child(3) {
+    background: url("../img/jk802.jpg");
+  }
+}
 @media (min-width:900px) and (max-width:1200px) {
   h1 {
     font-size: 8vw;
