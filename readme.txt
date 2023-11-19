@@ -1,3 +1,16 @@
+ Websida:
+https://www.maumt.se/wdu/ht23/students/Maja/sidan/index.html
+
+Github:
+https://github.com/majasielski/jksidan
+
+
 Changelog:
-2023-10-07: First code created. No text or images
-Two files: index.html + style.css
+1: ramar utan text och bilder
+2: ramar med text, utan bilder
+3: ramar med text och med bilder
+4: mobil css
+6: ändringar i css:en
+7: anpassning för mobil i css:en
+8: rättelse fel i style.css och mobil i css.
+
