@@ -40,7 +40,117 @@ nav a:nth-child(1):hover, nav a:nth-child(3):hover, nav a:nth-child(4):hover {
   background-color: rgba(173, 196, 227, 0.329);
   color: white;
 }
+/*SECTION*/
+article {
+  display: flex;
+  flex-direction: column;
+}
+article p {
+  margin: 2.5rem 0 0.5rem 0;
+}
+article + div {
+  display: grid;
+  grid-template-columns: 15vw 15vw;
+  grid-template-rows: 15vw 15vw auto;
+  gap: 0.5rem;
+}
+section:first-of-type, section:last-of-type {
+  border-radius: 20px;
+  border: 2px solid white;
+  padding: 0.7rem;
+}
+section:first-of-type > div:first-child, section:last-of-type > div:first-child {
+  display: flex;
+  gap: 1.65%;
+}
 
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+article + div > div:first-child {
+  position: relative;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+article + div > div:first-child img {
+  position: absolute;
+  opacity: 2;
+  transition: opacity 1.3s ease-in-out;
+}
+article + div > div:first-child img:nth-child(2):hover {
+  opacity: 0;
+}
+article + div p {
+  margin-left: 1rem;
+  font-size: 0, 9rem;
+  font-weight: bolder;
+  margin-bottom: 0.2rem;
+}
+article + div ol {
+  padding: 0.5rem;
+  padding-top: 0;
+  margin-left: 1.5rem;
+  margin-top: 0;
+}
+article + div div:nth-child(2) {
+  font-size: 0.9rem;
+}
+article + div div:nth-child(3) {
+  font-size: 0.9rem;
+}
+/*FIRST SECTION*/
+section > div:nth-child(2) div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.2rem 1rem;
+}
+section > div:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 0.45rem;
+  column-gap: 0.29rem;
+}
+section:first-of-type article + div div:nth-child(2), section:first-of-type article + div div:nth-child(3) {
+  background-color: rgb(241, 243, 247);
+  color: rgb(0, 0, 0);
+}
+/*Fontsize lower row*/
+section > div:nth-child(2) p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+section:first-of-type > div:nth-child(2) div:nth-child(1) {
+  color: rgb(241, 243, 247);
+  background-color: rgb(113, 122, 134);
+}
+section:first-of-type > div:nth-child(2) div:nth-child(3) {
+  color: rgb(241, 243, 247);
+  background-color: rgb(113, 122, 134);
+}
+section:first-of-type > div:nth-child(2) div:nth-child(5) {
+  color: rgb(241, 243, 247);
+  background-color: rgb(113, 122, 134);
+}
+section:first-of-type > div:nth-child(2) div:first-child {
+}
+section:first-of-type > div:nth-child(2) div:nth-child(3) {
+  grid-column: 3 / 5;
+}
+section:first-of-type > div:nth-child(2) div:nth-child(4) {
+  align-items: flex-end;
+  background: url("");
+  background-size: cover;
+  color: white;
+  color: white;
+  display: flex;
+  padding: 0.6rem 0.6rem;
+}
+section:first-of-type > div:nth-child(2) div:nth-child(5) {
+
+}
 
 /*FOOTER*/
 footer {
